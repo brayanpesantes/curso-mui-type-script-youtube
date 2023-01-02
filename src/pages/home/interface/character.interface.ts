@@ -1,0 +1,18 @@
+export interface TypeCharacter {
+  id: string
+  name: string
+  status: string
+  species: string
+  type: string
+  origin: Location
+  location: Location
+  image: string
+  episode: string[]
+  url: string
+  created: Date
+}
+
+export interface Location {
+  name: string
+  url: string
+}
